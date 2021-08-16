@@ -1,5 +1,7 @@
-import nltk 
 import pandas as pd
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.classify import NaiveBayesClassifier
 from nltk.corpus import stopwords
 from nltk.classify.util import accuracy
