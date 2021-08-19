@@ -1,2 +1,3 @@
 language = "bash"
 run = "python3 main.py"
+onBoot="echo 'Preparing environment...' && pip3 install pandas nltk && echo 'Environment ready'"
